@@ -1,8 +1,5 @@
 # Customer Segmentation and Behavioural Analysis: Standard, RFM and Constrained K-Means
 
-COS 802 Research Project, University of Pretoria
-Author: Nqobile Ngidi (u15189181)
-
 This repository contains the code and results for a study comparing three ways of segmenting e-commerce customers:
 
 1. **Standard K-means** on seven behavioural features
@@ -13,14 +10,16 @@ Customers are clustered on an earlier **training window** and judged on how well
 
 ## Repository contents
 ├── README.md
-├── requirements.txt
-├── run_analysis.py                    
+├── requirements.txt                     #list of set up and installation requirements
+├── run_analysis.py                      # Code for partial experiment analysis
 ├── notebooks/
-│   └── Masters_Constrained_Customer_Segmentation_Experiment.ipynb   
+│   └── Constrained_Customer_Segmentation_Experiment.ipynb   # Main code
 ├── data/
 │   └── Online Retail.xlsx              # NOT included – see Data information below
 ├── results/                            # contents of analysis_results.zip
-
+└── report/
+    ├── main.tex                        # IEEE-format report
+    └── figures/  
 
 ## Data
 The study uses the public **Online Retail** dataset from the UCI Machine Learning Repository: 541,909 transactions from a UK-based online gift retailer between 1 December 2010 and 9 December 2011.
