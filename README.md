@@ -18,6 +18,7 @@ Customers are clustered on an earlier **training window** and judged on how well
 │   └── Online Retail.xlsx              # NOT included – see Data information below
 ├── results/                            # contents of analysis_results.zip
 └── report/
+    ├── Report.pdf
     ├── main.tex                        # IEEE-format report
     └── figures/  
 
